@@ -1,0 +1,16 @@
+# package manager folders
+/node_modules
+/bower_components
+
+# project deploy managed folders
+/build
+/env
+/etc
+/reports
+/run
+/snapshots
+/submissions
+/var
+newrelic_agent.log
+log/
+tmp/

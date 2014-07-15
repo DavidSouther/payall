@@ -1,7 +1,6 @@
 routers = (app)->
     [
         'rewrite'
-        'site'
         'static'
     ].forEach (api)->
         require("./#{api}/route")(app)

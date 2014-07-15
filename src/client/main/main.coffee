@@ -1,4 +1,5 @@
 angular.module('payall', [
+    'payall.directive'
     'ui.router'
 ]).config (
     $urlRouterProvider
