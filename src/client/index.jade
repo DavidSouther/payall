@@ -17,8 +17,8 @@ html(lang='en', ng-app='payall')
 
     script(src="/vendors.js")
 
-  body
-    pay-all
-
+  body 
+    ui-view
+    a(ui-sref="amount") Amount
     script(src="/templates.js")
     script(src="/app.js")
