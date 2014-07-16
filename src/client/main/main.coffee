@@ -2,6 +2,7 @@ angular.module('payall', [
     'payall.directive'
     'payall.emails'
     'ui.router'
+    'payall.amount'
 ]).config (
     $urlRouterProvider
     $locationProvider
