@@ -21,6 +21,7 @@
     "angular-sanitize": "~1.2.18",
     "marked": "~0.3.2",
     "highlightjs": "~8.0.0",
-    "angular-animate": "~1.2.19"
+    "angular-animate": "~1.2.19",
+    "ionic": "~0.9.27"
   }
 }
