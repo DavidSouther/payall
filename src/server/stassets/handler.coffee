@@ -32,6 +32,7 @@ vendors =
         # 'bootstrop/dist/fonts/*.css'
         # 'css-social-buttons/css/*.css'
         # '!**/*.min.css'
+        'ionic/release/css/ionic.css'
         'highlightjs/styles/tomorrow.css'
     ]
 

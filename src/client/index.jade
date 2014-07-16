@@ -18,9 +18,14 @@ html(lang='en', ng-app='payall')
     script(src="/vendors.js")
 
   body
+    .bar.bar-header.bar-balanced
+        h3 PayAll
+
     ui-view
-    a(ui-sref="emails") Emails
-    a(ui-sref="amount") Amount
+
+    .tabs
+        a.tab-item(ui-sref="emails") Emails
+        a.tab-item(ui-sref="amount") Amount
 
     script(src="/templates.js")
     script(src="/app.js")
