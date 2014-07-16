@@ -3,6 +3,7 @@ angular.module('payall.amount', ['ui.router', 'payall.amount.controller', 'payal
     $stateProvider.state({
         name: 'amount',
         controller: 'PayAllAmountCtrl',
+        controllerAs: 'amount',
         templateUrl: 'payall/amount'
-    })
+    });
 });
