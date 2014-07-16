@@ -1,3 +1,11 @@
-div
-    label {{emails.message}}
-    input
+.list
+    label.item.item-input.item-floating-label
+        span.input-label Email Addresses
+        input(
+            type="text"
+            placeholder="Email Addresses"
+            ng-model="payall.service.emailsRaw"
+        )
+    a.button.button-full.button-balanced(
+        ng-click="payall.askMoney()"
+    ) Get the bill!

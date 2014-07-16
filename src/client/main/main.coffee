@@ -8,4 +8,4 @@ angular.module('payall', [
     $locationProvider
 )->
     $locationProvider.html5Mode false # TODO hide behind flag.
-    $urlRouterProvider.otherwise '/'
+    $urlRouterProvider.otherwise '/amount'

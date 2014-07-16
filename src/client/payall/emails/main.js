@@ -1,9 +1,13 @@
-angular.module('payall.emails', ['ui.router',
-    'payall.emails.controller', 'payall.emails.template']).config(function($stateProvider) {
+angular.module('payall.emails', [
+    'ui.router',
+    'payall.controller',
+    'payall.emails.template'
+]).config(function($stateProvider) {
     return $stateProvider.state({
         name: 'emails',
-        controller: 'PayAllEmailsCtrl',
-        controllerAs: 'emails',
+        url: '/emails',
+        controller: 'PayAllCtrl',
+        controllerAs: 'payall',
         templateUrl: 'payall/emails'
     });
 });

@@ -1,3 +1,13 @@
-div
-    label {{amount.message}}
-    input
+.list
+    form(name="amount")
+        label.item.item-input.item-floating-label
+            span.input-label Check Amount
+            input(
+                type="number"
+                placeholder="$(usd)"
+                ng-model="payall.service.amount"
+            )
+        a.button.button-full.button-balanced(
+            ng-show="amount.$valid"
+            ui-sref="emails"
+        ) Friends' Emails

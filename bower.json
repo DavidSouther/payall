@@ -23,5 +23,11 @@
     "highlightjs": "~8.0.0",
     "angular-animate": "~1.2.19",
     "ionic": "~0.9.27"
+  },
+  "resolutions": {
+    "angular-animate": "~1.2.19",
+    "angular": ">= 1.1.5",
+    "angular-sanitize": "~1.2.18",
+    "angular-ui-router": "~0.2.10"
   }
 }

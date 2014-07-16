@@ -1,9 +1,13 @@
-angular.module('payall.amount', ['ui.router', 'payall.amount.controller', 'payall.amount.template'])
-.config(function($stateProvider) {
-    $stateProvider.state({
+angular.module('payall.amount', [
+    'ui.router',
+    'payall.controller',
+    'payall.amount.template'
+]).config(function($stateProvider) {
+    return $stateProvider.state({
         name: 'amount',
-        controller: 'PayAllAmountCtrl',
-        controllerAs: 'amount',
+        url: '/amount',
+        controller: 'PayAllCtrl',
+        controllerAs: 'payall',
         templateUrl: 'payall/amount'
     });
 });
